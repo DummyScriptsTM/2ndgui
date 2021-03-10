@@ -1,0 +1,11 @@
+from tkinter import *
+win1 = Tk()
+win1.title("title exaple")
+win1.iconbitmap("ic.ico")
+Fe = Frame(win1)
+Fe.pack()
+theLabel = Label(Fe, text="size, title, icon")
+theLabel.pack(side=TOP)
+B1 = Button(Fe, text="SUBSCRIBE", fg="red")
+B1.pack(side=BOTTOM)
+win1.mainloop()
